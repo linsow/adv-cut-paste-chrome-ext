@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "Advanced Cut and Paste",
+  "version": "1.0",
+  "description": "This extention enables you to seemlessly cut and paste between WhatApp, Markdown sources (such as ChatGPT) and rich text interfaces.",
+  "permissions": ["activeTab"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup.html"
+  }
+}
